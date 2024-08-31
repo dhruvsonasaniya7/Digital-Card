@@ -1,0 +1,628 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="responsive.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Card</title>
+    <!-- ========== CSS ========== -->
+    <link rel="shortcut icon" href="img/shivamcomputerlogo.jpg">
+    <!-- ========== RESPONSIVE ========== -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    margin: auto;
+    width: 450px;
+
+}
+.background {
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    float: left;
+    padding: 15px;
+    min-height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 6px #ccc;
+}
+.header{
+    width: 100%;
+}
+.logo{
+    width: 50%;
+}
+.logo img {
+    float: left;
+    margin-left: 35px;
+    border-radius: 50%;
+    margin-top: 15px;
+    width: 40%;
+}
+.title {
+    float: left;
+    margin-top: 9px;
+    width: 50%;
+    text-align: center;
+}
+.title h1 {
+    color: #0f3482;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 23px;
+}
+.title p {
+    color: #0f3482;
+    font-weight: bold;
+    margin-top: -13px;
+    font-size: 12px;
+}
+.contect{
+    width: 100%;
+    float: left;
+}
+.savecontect i {
+    float: left;
+    color: #0f3482;
+    margin-top: 50px;
+    font-size: 20pt;
+    margin-right: 5px;
+}
+
+.icon {
+    float: left;
+    margin-top: 27px;
+    margin-bottom: 20px;
+    width: 44%;
+    margin-left: 15px;
+}
+.icon ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.icon ul li {
+    list-style: none;
+    line-height: 28px;
+    padding: 5px 10px;
+}
+
+.icon ul li a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 17px;
+    margin-left: -35px;
+}
+.icon ul li i {
+    color: #fff;
+    background-color: #db863d;
+    padding: 10px 10px;
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-top: -3px;
+    border-radius: 2px;
+    margin-left: 50px;
+    width: 7%;
+}
+
+.social-media {
+    float: right;
+    margin-top: 23px;
+    margin-bottom: 20px;
+    width: 40%;
+    padding-right: 35px;
+}
+.social-media ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.social-media ul li {
+    list-style: none;
+    line-height: 28px;
+    padding: 5px 10px;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 17px;
+    margin-left: -35px;
+}
+.social-media ul li i {
+    color: #fff;
+    background-color: #db863d;
+    padding: 10px 10px;
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-top: -3px;
+    border-radius: 2px;
+    margin-left: 50px;
+    width: 7%;
+}
+.third{
+    width: 100%;
+}
+.icon1 i {
+    font-size: 15px;
+    background-color: #2c53a2;
+    padding: 10px;
+    margin-bottom: 18px;
+    color: #fff;
+}
+.title3 {
+    float: left;
+    width: 0%;
+}
+.title3 h1 {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 40px;
+    margin-top: 11px;
+}
+.title4{
+    float: left;
+    width: 0%;
+}
+.title4 h1 {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 40px;
+    margin-top: 9px;
+}
+.title5{
+    float: left;
+    width: 0%;
+}
+.title5 h1 {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 40px;
+    margin-top: 9px;
+}
+.forth {
+    width: 45%;
+    float: left;
+    margin-top: 30px;
+    border: 2px solid #d6d6d6;
+    min-height: 150px;
+}
+.title6{
+    width: 100%;
+    float: left;
+}
+.title6 h1 {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: #24569b;
+}
+.title7{
+    width: 100%;
+    float: left;
+}
+.title7 h1 {
+    color: #000;
+    font-size: 10px;
+    margin-left: 28px;
+    margin-top: -10px;
+}
+
+.fifth {
+    width: 50%;
+    float: left;
+    margin-left: 35px;
+}
+.fourth {
+    width: 50%;
+    float: right;
+    margin-left: -35px;
+}
+.title8{
+    width: 100%;
+    float: left;
+}
+.title8 h1 {
+    color: #525fae;
+    font-size: 17px;
+    margin-bottom: -8px;
+}
+
+.icon2 {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icon2 ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.icon2 ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+.icon2 ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 0px 5px;
+}
+.icon2 ul li i {
+    background-color: #4c64a3;
+    border-radius: 25px;
+    padding: 9px 10px;
+    margin-left: -10px;
+    margin-right: 7px;
+    color: #fff;
+}
+.text ul li i {
+    background-color: #0f3482;
+    font-size: 15px;
+    padding: 9px 11px;
+    margin-top: 44px;
+    border-radius: 50%;
+}
+.title9 {
+    width: 86%;
+    margin-left: -17px;
+}
+.title9 ul {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.title9 ul li {
+    list-style: none;
+    line-height: 28px;
+    float: left;
+}
+
+.title9 ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    margin-top: -12px;
+}
+
+.title9 ul li i {
+    color: #fff;
+    background-color: #781c71;
+    padding: 3px 3px;
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-top: -3px;
+    margin-left: 31px;
+    font-size: 10px;
+}
+.title10 {
+    float: left;
+    width: 100%;
+}
+.title10 ul{
+    margin: 0px;
+    padding:0px;
+}
+.title10 ul li{
+    list-style: none;
+    float: left;
+}
+.title10 ul li a{
+    color: #0f3482;
+    float: left;
+    font-size: 10px;
+}
+.seven{
+    width: 50%;
+    float: left;
+}
+.icon4 {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.icon4 ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.icon4 ul li {
+    list-style: none;
+    line-height: 28px;
+    padding: 5px 10px;
+}
+.icon4 ul li a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-left: 27px;
+}
+.icon4 ul li i {
+    color: #000;
+    float: left;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+.text{
+    width: 100%;
+    float: left;
+}
+.text ul{
+    margin: 0px;
+    padding: 0px;
+}
+.text ul li {
+    list-style: none;
+    margin-left: 27px;
+}
+.text ul li i {
+    background-color: #0f3482;
+    color: #fff;
+    font-size: 15px;
+    padding: 9px 11px;
+    margin-top: 44px;
+    border-radius: 50%;
+}
+.text ul li a {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.eight {
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+}
+.text2 {
+    width: 100%;
+}
+.text2 h1 {
+    color: #0f3482;
+    font-size: 15px;
+    margin-left: 50px;
+}
+.timing2{
+    width: 100%;
+    float: right;
+}
+.eight2 {
+    width: 71%;
+    float: right;
+    margin-right: 25px;
+}
+.table {
+    font-size: 10px;
+    float: left;
+    width: 100%;
+}
+.table h1 {
+    margin-left: 15px;
+}
+.table1 {
+    width: 100%;
+    float: left;
+}
+.table1 h1 {
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 22px;
+    border: 1px solid #0f3482;
+    text-align: center;
+    cursor: pointer;
+    background: #0f3482;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.table1 h2 a {
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 0px;
+    float: left;
+    border: 1px solid #de853b;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    background: #de853b;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a.btn {
+    background-color: #0f3482;
+    padding: 10px 10px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 33px;
+    cursor: pointer;
+}
+
+a.btn i {
+    margin-right: 5px;
+}
+
+.social-media1 ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.social-media1 li {
+    float: left;
+    margin-top: 29px;
+    margin-left: 6px;
+}   
+
+.social-media1 li i{
+    font-size: 20px;
+}
+
+i.fa.fa-facebook {
+    background: #3b5998;
+    padding: 11px 12px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+i.fa.fa-instagram {
+    /* background: #E4405F; */
+    /* background-color: #fccc63 rgb(252, 204, 99),#fbad50 rgb(251, 173, 80),#cd486b  rgb(205, 72, 107),#4c68d7 rgb(76, 104, 215); */
+    background: #f09433;
+            background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+            background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    padding: 11px 12px;
+    border-radius: 5px;
+    color: #fff;
+}
+i.fa.fa-youtube-play
+{
+    background: #CD201F;
+    padding: 11px 12px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+</style>
+
+
+<body>
+    <div class="container">
+        <div class="background">
+
+            <div class="header">
+                <div class="logo">
+                    <img src="img/shivamcomputerlogo.jpg">
+                </div>
+                <div class="title">
+                    <h1>Shivam Computer</h1>
+                    <p href="mailto:info@shivamcomputer.org" target="_blank">info@shivamcomputer.org</p>
+                </div>
+                <!-- <div class="btn2">
+                    <i class="fa fa-share" aria-hidden="true"></i>
+                </div> -->
+            </div>
+
+
+            <div class="contect">
+                <div class="icon">
+                    <ul>
+                        <li> <a href="mailto:info@shivamcomputer.org" target="_blank"> <i class="fa fa-envelope"></i>E-Mail</a>
+                        </li>
+                        <li> <a href="https://shivamcomputer.org" target="_blank"><i class="fa fa-globe"></i></i>Website</a></li>
+                        <li> <a href="tel:+919601923020" target="_blank"> <i class="fa fa-phone"></i>Contect No.</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            
+            <div class="fourth">
+                <div class="title8">
+                    <h1>IT Courses</h1>
+                </div>
+                <div class="icon2">
+                    <ul>
+                        <li><a><i class="fa fa-check"></i>Java</a></li>
+                        <li><a><i class="fa fa-check"></i>C/C++</a></li>
+                        <li><a><i class="fa fa-check"></i>Python</a></li>
+                        <li><a><i class="fa fa-check"></i>Php</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="fifth">
+                <div class="title8">
+                    <h1>Courses</h1>
+                </div>
+                <div class="icon2">
+                    <ul>
+                        <!-- <li><a><i class="fa fa-check"></i>MS Office</a></li>
+                        <li><a><i class="fa fa-check"></i>Coraldraw</a></li>
+                        <li><a><i class="fa fa-check"></i>Photoshop</a></li>
+                        <li><a><i class="fa fa-check"></i>Revik</a></li> -->
+                        <li><a><i class="fa fa-check"></i>Tally</a></li>
+                        <li><a><i class="fa fa-check"></i>Photoshop</a></li>
+                        <li><a><i class="fa fa-check"></i>CCC,CCC+</a></li>
+                        <li><a><i class="fa fa-check"></i>Revit</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="seven">
+                <div class="text">
+                    <ul>
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <a href="#">Address</a>
+                    </ul>
+                    </li>
+                    <ul>
+                </div>
+                <div class="icon4">
+                    <ul>
+                        <li>
+                            <a>6-7, Shivam Computer, Devpriy Complex, Motera Road, Sabarmati, Ahmedabad-380005</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <a class="btn" href="card-pdf/card3_pdf.pdf" target="_blank" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Download PDF</a>
+
+            </div>
+
+
+            <div class="eight">
+                <div class="eight2">
+                    <div class="timing">
+                        <div class="table">
+                            <h1>MON-SAT</h1>
+                        </div>
+                        <div class="table1">
+                            <h1>8:00 TO 10:00</h1>
+                            <!-- <h2><a href="https://shivamcomputer.org/apply/">Apply Online</a></h2> -->
+                            <h2><a href="https://shivamcomputer.org/apply/" target="_blank">Apply Online</a></h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-media1">
+                    <ul>
+                        <li ><a href="https://www.facebook.com/people/Shivam-Computer-Motera/100063594382894/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+                        <li> <a href="https://www.instagram.com/shivamcomputermotera/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li> <a href="https://www.youtube.com/channel/UCpt-h_OIVxtUN8KVDbr5AUA" target="_blank"> <i  class="fa fa-youtube-play"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
